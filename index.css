@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+%@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1491956175078-460aea0914ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1550&q=80") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./top.jpg") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -79,7 +79,7 @@ body {
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(255, 50, 50);
+    color:rgb(0, 80, 250);
     font-size:70px;
     text-decoration:underline;
 }
