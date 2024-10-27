@@ -1,0 +1,40 @@
+current directory: /Users/masanori/Documents/GitHub/hydejack-starter-kit-9.2.1/vendor/bundle/ruby/3.3.0/gems/duktape-2.7.0.0/ext/duktape
+/Users/masanori/.rbenv/versions/3.3.5/bin/ruby extconf.rb
+checking for rb_sym2str()... yes
+creating Makefile
+
+current directory: /Users/masanori/Documents/GitHub/hydejack-starter-kit-9.2.1/vendor/bundle/ruby/3.3.0/gems/duktape-2.7.0.0/ext/duktape
+make DESTDIR\= sitearchdir\=./.gem.20241027-55400-rxik2h sitelibdir\=./.gem.20241027-55400-rxik2h clean
+
+current directory: /Users/masanori/Documents/GitHub/hydejack-starter-kit-9.2.1/vendor/bundle/ruby/3.3.0/gems/duktape-2.7.0.0/ext/duktape
+make DESTDIR\= sitearchdir\=./.gem.20241027-55400-rxik2h sitelibdir\=./.gem.20241027-55400-rxik2h
+compiling duktape.c
+duk_bi_cbor.c:64:73: warning: function 'duk__cbor_encode_error' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+DUK_LOCAL void duk__cbor_encode_error(duk_cbor_encode_context *enc_ctx) {
+                                                                        ^
+duk_bi_cbor.c:695:73: warning: function 'duk__cbor_decode_error' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+DUK_LOCAL void duk__cbor_decode_error(duk_cbor_decode_context *dec_ctx) {
+                                                                        ^
+duk_bi_date.c:311:34: warning: implicit conversion loses integer precision: 'unsigned long' to 'duk_uint_fast32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+                        match_val = (1UL << part_idx) + (1UL << (sep_idx + 9)); /* match against rule part/sep bits */
+                                  ~ ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+duk_bi_json.c:195:69: warning: function 'duk__json_dec_syntax_error' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+DUK_LOCAL void duk__json_dec_syntax_error(duk_json_dec_ctx *js_ctx) {
+                                                                    ^
+4 warnings generated.
+compiling duktape_ext.c
+duktape_ext.c:300:1: warning: function 'raise_ctx_error' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+duktape_ext.c:625:1: warning: function 'error_handler' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+2 warnings generated.
+linking shared-object duktape_ext.bundle
+
+current directory: /Users/masanori/Documents/GitHub/hydejack-starter-kit-9.2.1/vendor/bundle/ruby/3.3.0/gems/duktape-2.7.0.0/ext/duktape
+make DESTDIR\= sitearchdir\=./.gem.20241027-55400-rxik2h sitelibdir\=./.gem.20241027-55400-rxik2h install
+/usr/bin/install -c -m 0755 duktape_ext.bundle ./.gem.20241027-55400-rxik2h
+
+current directory: /Users/masanori/Documents/GitHub/hydejack-starter-kit-9.2.1/vendor/bundle/ruby/3.3.0/gems/duktape-2.7.0.0/ext/duktape
+make DESTDIR\= sitearchdir\=./.gem.20241027-55400-rxik2h sitelibdir\=./.gem.20241027-55400-rxik2h clean
