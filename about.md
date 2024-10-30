@@ -14,22 +14,17 @@ redirect_from:
 <!--author-->
 
 
-I'm fascinated by technologies that gets people more creative or more precise with their work.
+I’m dedicated to technologies that enhance creativity and precision.
 {:.lead}
 
 1. this list will be replaced by the toc
-{:toc .large-only}
+{:toc}
+#{:toc .large-only}
 
 ## Interest
 
 I am fascinated by the technology and engineering behind arts especially in the form of film and music. Making full use of my computer science background, I have designed programs that I use by myself as an acoustician, and 
 
-**Hydejack** is a boutique [Jekyll] theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress. 
-
-It includes a blog that is suitable for both prose and technical documentation, a portfolio to showcase your projects, and a resume template that looks amazing on the web and in print.
-
-> Your complete presence on the web — A [blog], [portfolio], and [resume].
-{:.lead}
 
 
 ## A Personal Site That Won't Disappear

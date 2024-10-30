@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Welcome
-sitemap: true
+sitemap: false
 cover: true
 ---
 
