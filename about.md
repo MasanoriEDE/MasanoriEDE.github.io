@@ -13,7 +13,6 @@ redirect_from:
 
 <!--author-->
 
-
 I’m dedicated to technologies that enhance creativity and precision.
 {:.lead}
 
