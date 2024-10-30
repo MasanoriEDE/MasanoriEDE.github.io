@@ -20,23 +20,23 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Masanori's room
+title:                 Studio Reflection
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Masanori's journey on film music and acoustics is still on going.The already dream-like memory of watching movies in cinema is driving him towards breathtaking music and impeccable room acoustics.
+  Masanori's journey on film music and acoustics carries on. The vague memory of watching movies as a teenager in cinema is driving him towards breathtaking music and impeccable room acoustics.
 
 # A shorter description for the sidebar.
-tagline:               Welcome to my studio
+tagline:               Welcome to the mirror side
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [Studio, Acoustics, Mixing, Mastering, Speakers]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/Masssa.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -49,22 +49,22 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
+  # - title:             Example
+  #   url:               /example/
+  # - title:             Documentation
+  #   url:               /docs/
   - title:             About
     url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+  # - title:             LICENSE
+  #   url:               /LICENSE/
+  # - title:             NOTICE
+  #   url:               /NOTICE/
+  # - title:             CHANGELOG
+  #   url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2024. All rights reserved.
