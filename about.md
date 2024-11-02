@@ -11,9 +11,9 @@ redirect_from:
 # About
 
 <!--author-->
+
 I’m dedicated to technologies that enhance creativity and precision.
 {:.lead}
-
 
 {:toc}
 
@@ -24,8 +24,8 @@ I have seen how different algorithm or interface can change the way people think
 As an acoustician, I am interested in developing room acoustic models that can represent complex room modes both in frequency domain and time domain.
 As an audio engineer, I am interested in studio environment and plugins that allow more creative and precise workflow.
 
-
-
+## Previous works
+to be updated
 
 
 [jekyll]: https://jekyllrb.com
