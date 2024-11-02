@@ -12,7 +12,6 @@ redirect_from:
 # About
 
 <!--author-->
-
 I’m dedicated to technologies that enhance creativity and precision.
 {:.lead}
 
@@ -23,87 +22,6 @@ I’m dedicated to technologies that enhance creativity and precision.
 ## Interest
 
 I am fascinated by the technology and engineering behind arts especially in the form of film and music. Making full use of my computer science background, I have designed programs that I use by myself as an acoustician, and 
-
-
-
-## A Personal Site That Won't Disappear
-
-**Hydejack** is 100% built on Open Source software, and is Open Source itself, save for parts of the PRO version. The PRO version is a one-time payment that gives you the right to use it forever.
-
-Hydejack is all static sites. _HTML_. All you need is a web server — any web server — to have a professional web presence that lasts a lifetime.
-
-
-## A Free Blogging Theme
-**Hydejack** started out as a free blogging theme for Jekyll — and continues to be so.
-
-<!--posts-->
-
-
-## An Impressive Portfolio
-A portfolio that's guaranteed to be impressive — no matter what you put into it.
-
-<!--projects-->
-
-
-
-## Just Markdown
-Write all content with Markdown. __Hydejack__ gives you [additional CSS classes](docs/writing.md) to stylize your content, without losing compatibility with other Jekyll themes.
-
-
-## Just Markup
-**Hydejack** boasts a plethora of modern JavaScript, but make no mistake: It's still a _plain old web page_ at its core. It works without JavaScript and you can even view it in a text-based browser like `w3m`:
-
-![w3m Screenshot](/assets/img/blog/w3m.png){:.tail width="1920" height="1260" loading="lazy"}
-
-The Hydejack blog, as seen by the text browser `w3m`.
-{:.figcaption}
-
-
-## Syntax Highlighting
-**Hydejack** features syntax highlighting, powered by [Rouge].
-
-```html
-<!-- file: `_includes/my-body.html` -->
-<script type="module">
-  document.querySelector("hy-push-state").addEventListener("hy-push-state-load", () => {
-    const supportsCodeHighlights = false; // TBD!!
-  });
-</script>
-```
-
-Code blocks can have a filename and a caption.
-{:.figcaption}
-
-
-## Beautiful Math
-They say math is beautiful — and with **Hydejack**'s [math support][math] it's guaranteed to also look beautiful:
-
-$$
-\begin{aligned}
-  \phi(x,y) &= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  & \cdots & \phi(e_1, e_n) \\
-                 \vdots          & \ddots & \vdots         \\
-                 \phi(e_n, e_1)  & \cdots & \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}
-$$
-
-Hydejack uses KaTeX to efficiently render math.
-{:.figcaption}
-
-
-
-## Download
-
-# {% include table.md %}
 
 
 
