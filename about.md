@@ -14,7 +14,6 @@ redirect_from:
 I’m dedicated to technologies that enhance creativity and precision.
 {:.lead}
 
-1. this list will be replaced by the toc
 
 {:toc}
 

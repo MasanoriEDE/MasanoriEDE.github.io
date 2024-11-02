@@ -1,8 +1,8 @@
 ---
 layout: home
 title: Welcome
-sitemap: true
-cover: true
+sitemap: false
+cover: false
 ---
 
 My name is Masanori.
