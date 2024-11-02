@@ -21,8 +21,8 @@ I’m dedicated to technologies that enhance creativity and precision.
 
 I am fascinated by tools that enables creaters and designers work more creatively and precisely.
 I have seen how different algorithm or interface can change the way people think and work, and I want to develop tools that allow me to work better.
-As an acoustician, I am interested in developing room acoustic models that can represent complex room modes both in frequency domain and time domain.
-As an audio engineer, I am interested in studio environment and plugins that allow more creative and precise workflow.
+As an acoustician, I am interested in developing a room acoustic model that can represent complex room modes both in frequency domain and time domain.
+As an audio engineer, I am interested in studio environment and audio plugins that allow more creative and precise workflow.
 
 ## Previous works
 to be updated
