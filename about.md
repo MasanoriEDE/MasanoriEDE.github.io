@@ -2,8 +2,7 @@
 layout: about
 image: /assets/img/blog/hydejack-9.jpg
 description: >
-  A boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  I am an acoustician and audio engineer, who works on both sides of studios.
 hide_description: true
 redirect_from:
   - /download/
@@ -16,12 +15,15 @@ I’m dedicated to technologies that enhance creativity and precision.
 {:.lead}
 
 1. this list will be replaced by the toc
+
 {:toc}
-#{:toc .large-only}
 
 ## Interest
 
-I am fascinated by the technology and engineering behind arts especially in the form of film and music. Making full use of my computer science background, I have designed programs that I use by myself as an acoustician, and 
+I am fascinated by tools that enables creaters and designers work more creatively and precisely.
+I have seen how different algorithm or interface can change the way people think and work, and I want to develop tools that allow me to work better.
+As an acoustician, I am interested in developing room acoustic models that can represent complex room modes both in frequency domain and time domain.
+As an audio engineer, I am interested in studio environment and plugins that allow more creative and precise workflow.
 
 
 

@@ -135,10 +135,10 @@ defaults:
         overlay:       false
 
   # Don't include documents in assets in the sitemap
-  - scope:
-      path:            assets/
-    values:
-      sitemap:         false
+#  - scope:
+#      path:            assets/
+#    values:
+#      sitemap:         false
 
   # Don't include licenses in sitemap (feel free to delete)
 #  - scope:
