@@ -26,7 +26,7 @@ As an audio engineer, I am interested in studio environment and audio plugins th
 
 ## Previous works
 to be updated
-
+Chess lover
 
 [jekyll]: https://jekyllrb.com
 
