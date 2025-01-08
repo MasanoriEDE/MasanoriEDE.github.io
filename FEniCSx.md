@@ -11,18 +11,6 @@ conda search -c conda-forge PETSc
 conda install -c conda-forge petsc=3.21.6=complex_h9a830cf_0
 
 '''
-![HOGE](https://github.com/jrblevin/markdown-mode "ii")
-[ho](https://github.com/jrblevin/markdown-mode "ii")
-
-
-### HOGE
-
-#### Listening
-[Here](https "he")
-
-
-
-
 
 
 
