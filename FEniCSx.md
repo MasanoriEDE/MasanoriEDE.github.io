@@ -13,7 +13,7 @@ conda install -c conda-forge petsc=3.21.6=complex_h9a830cf_0
 '''
 
 # Coding note
-## When modifying the code written for real mode to run on complex mode
+### When modifying the code written for real mode to run on complex mode
 	- Wrap constant with PETSc.ScalarType [Ref](https://jsdokken.com/dolfinx-tutorial/chapter1/complex_mode.html#variational-problem/)
 	```python
 	rho = fem.Constant(domain, PETSc.ScalarType(2700.0))
@@ -21,6 +21,8 @@ conda install -c conda-forge petsc=3.21.6=complex_h9a830cf_0
 		- Expected error [ incompatible function arguments. The following argument types are supported: ]
 	- conjugate tensor product either by ufl.conj or ufl.inner(second operand conjugated)	
 		- Expected error [ ArityMismatch: Failure to conjugate test function in complex Form ]
+	- [# Similarly, if we want to use the function `ufl.derivative` to take derivatives of functionals, we need to take some special care. As `ufl.derivative` inserts a `ufl.TestFunction` to represent the variation, we need to take the conjugate of this to be able to use it to assemble vectors.](https://github.com/jorgensd/dolfinx-tutorial/blob/main/chapter1/complex_mode.py)
+		
 		
 	- Defining boundary condition with constants, below failed in solving the problem due to an incompatible type error
 	
@@ -46,7 +48,7 @@ grid.point_data["Deflection"] = u.x.array.reshape(-1, 3).real
 ```
 
 
-## When modifying from one version to another
+### When modifying from one version to another
 - ERROR [compute_integration_domains(): incompatible function arguments.]
   - Some versions needs explicit type definition for meshtags
 ```python
@@ -55,7 +57,16 @@ facet_tags = meshtags(mesh, mesh.topology.dim - 1,
 		np.array([0] * len(facets_left)).astype('int32'))
 ```
 
+### When getting the value of mesh
+```python
+display(kappa.x.array[:])
+```
 
+### When importing mesh to FEniCSx
+- gmshio seems to fail to read hexahedron...Unknown cell type-KeyError: np.int32(6)
+  - works fine with tetrahedron
+- cell:Volume physical group number
+- facet_tags: Surface physical number
 
 
 # Zakki
@@ -66,6 +77,7 @@ facet_tags = meshtags(mesh, mesh.topology.dim - 1,
 - [Different ways to slice in pyvista](https://docs.pyvista.org/examples/01-filter/slicing.html)
 - [Difference between Complex mode and Real modeheawu](https://jsdokken.com/dolfinx-tutorial/chapter1/complex_mode.html)
 - [FEniCSx tutorial for Sorbonne University](https://jsdokken.com/FEniCS23-tutorial/README.html)
+- [FEniCS workshop tutorial](https://jsdokken.com/FEniCS-workshop/src/unified_form_language/ufl_forms.html)
 - [FEniCSx official tutorial](https://jsdokken.com/dolfinx-tutorial/chapter1/complex_mode.html)
 
 
@@ -73,7 +85,7 @@ facet_tags = meshtags(mesh, mesh.topology.dim - 1,
 - [General modal analysis for fenics](https://fenics-solid-tutorial.readthedocs.io/en/latest/EigenvalueProblem/EigenvalueProblem.html)
 
 
-
+p
 - [COMSOL6.3-Shell and Plate introduction-](https://doc.comsol.com/6.3/doc/com.comsol.help.sme/IntroductionToStructuralMechanicsModule.pdf)
 ```
 The Shell interface ( ) is intended for mechanical analysis of thin-walled structures. The formulation used in the Shell interface is a Mindlin–Reissner type, which means that transverse shear deformations are accounted for. It can be used for rather thick shells as well as thin ones. It is possible to prescribe an offset in a direction normal to a selected surface, which for example can be used when meshing imported geometries. The Shell interface also includes other features such as damping, thermal expansion, and initial stresses and strains. 
@@ -84,3 +96,10 @@ The Shell interface ( ) is intended for mechanical analysis of thin-walled struc
 
 
 -[Jupytext to convert .py <-> .ipynb](https://jupytext.readthedocs.io/en/latest/using-cli.html): jupytext --to notebook notebook.py <-> jupytext --to py notebook.ipynb     
+- [Gmsh official document](https://gmsh.info/doc/texinfo/gmsh.html)
+- [Gmsh with python reference with different topology](https://bbanerjee.github.io/ParSim/fem/meshing/gmsh/gmsh-meshing-for-code-aster/)
+-[Gmsh Python API basics blog](https://neph.altervista.org/tutorial-gmsh-python-api-basics-mesh-creation/?doing_wp_cron=1734198489.9841949939727783203125)
+- [Gmsh Python API for FEnics](https://jsdokken.com/src/tutorial_gmsh.html)
+
+
+$$V_{sphere} = \frac{4}{3}\pi r^3$$
