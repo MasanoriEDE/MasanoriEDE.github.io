@@ -262,6 +262,9 @@ The Shell interface ( ) is intended for mechanical analysis of thin-walled struc
 
 ## FEniCSx
 - [FEniCSX workshop: First Step](https://jsdokken.com/FEniCS-workshop/src/deep_dive/expressions.html)
+- [DOLFINx Advanced demos](https://docs.fenicsproject.org/dolfinx/v0.9.0/python/demos/demo_biharmonic.html)
+- [DOLFNIX Advanced demos: matrix solver comparison](https://docs.fenicsproject.org/dolfinx/main/python/demos/demo_stokes.html)
+
 - [FEniCS wokshop in India](https://github.com/iitrabhi/fenics-workshop/tree/main)
 - [Difference between Complex mode and Real mode](https://jsdokken.com/dolfinx-tutorial/chapter1/complex_mode.html)
 - [FEniCSx 2022:Helmholtz](https://jsdokken.com/fenics22-tutorial/helmholtz.html)
@@ -271,7 +274,6 @@ The Shell interface ( ) is intended for mechanical analysis of thin-walled struc
 - [Jorgen's Gist](https://gist.github.com/jorgensd)
 - [General modal analysis for fenics](https://fenics-solid-tutorial.readthedocs.io/en/latest/EigenvalueProblem/EigenvalueProblem.html)
 - [FEnicSx-Shell](https://fenics-shells.readthedocs.io/en/latest/demo/reissner-mindlin-clamped/demo_reissner-mindlin-clamped.py.html)
-- [DOLFINx document](https://docs.fenicsproject.org/dolfinx/v0.9.0/python/demos/demo_biharmonic.html)
 - [FEniCS shell(before FEniCSx)](https://fenics-shells.readthedocs.io/en/latest/demo/kirchhoff-love-clamped/demo_kirchhoff-love-clamped.py.html)
 - [Defining subdomain after importing gmsh](https://jsdokken.com/dolfinx-tutorial/chapter3/subdomains.html)
 - [FeniCSx Handson Examples](https://fenics-handson.readthedocs.io/en/latest/helmholtz/doc.html)
@@ -283,6 +285,7 @@ The Shell interface ( ) is intended for mechanical analysis of thin-walled struc
 - [Stefano FEniCSx Tutorial: Helmholtz](https://computational-acoustics.gitlab.io/website/posts/31-intro-to-fenics-part-2/)
 - [SciFEM](https://scientificcomputing.github.io/scifem/examples/point_source.html)
 - [FEniCSx-pctools: FEnICSx preconditioning tools](https://gitlab.com/rafinex-external-rifle/fenicsx-pctools)
+- [waves-fenicsx-Samuelpgroth](https://github.com/samuelpgroth/waves-fenicsx/blob/master/time/RK.py)
 
 - [Newfrac](https://newfrac.github.io/fenicsx-fracture/notebooks/linear-elasticity/00-Mesh.html)
 - [Elasticity training at Sorbonne University](https://newfrac.gitlab.io/newfrac-fenicsx-training/02-finite-elasticity/finite-elasticity-I.html)
@@ -296,10 +299,20 @@ The Shell interface ( ) is intended for mechanical analysis of thin-walled struc
 - [3D Thermo-poroelastplastic numerical simulations](https://github.com/Matt-L-McLean/poromechanics)
 - [Hadrien p-FEM](https://github.com/HadrienLMS/Helmholtz_1D_pFEM/blob/main/Helmholtz_1D_pFEM.ipynb)
 - [FEniCSx-preCICE adapter](https://github.com/precice/fenicsx-adapter)
+- [FEniCSx non-linear acoustics](https://github.com/samuelpgroth/waves-fenicsx/tree/master)
+- [hherlylyng's Gist:normals and tangents](https://gist.github.com/hherlyng/cb3ab37dc58205bcecbc9a6e15b1267f)
 
+
+### Discourse
+- [Disconitnuity at interface using mixed domains](https://fenicsproject.discourse.group/t/discontinuity-at-interface-using-mixed-domains/15040)
+- [Extracting normal vector data at boundary](https://fenicsproject.discourse.group/t/extract-normal-vector-data-at-boundary-in-dolfinx/13997/6)
+- []()
+- []()
+
+### Peripherals
 - [Gmsh official document](https://gmsh.info/doc/texinfo/gmsh.html)
 - [Gmsh with python reference with different topology](https://bbanerjee.github.io/ParSim/fem/meshing/gmsh/gmsh-meshing-for-code-aster/)
-- [Gmsh with python reference](https://bbanerjee.github.io/ParSim/fem/meshing/gmsh/quadrlateral-meshing-with-gmsh/)
+- [Gmsh with python reference](https://bbanerjee.github.io/ParSim/fem/meshing/gmsh/quadrlat1eral-meshing-with-gmsh/)
 -[Gmsh Python API basics blog](https://neph.altervista.org/tutorial-gmsh-python-api-basics-mesh-creation/?doing_wp_cron=1734198489.9841949939727783203125)
 - [Gmsh Python API for FEnics](https://jsdokken.com/src/tutorial_gmsh.html)
 - [Gmsh on grasshopper](https://discourse.mcneel.com/t/gmsh-in-grasshopper/173125/8)
@@ -309,6 +322,11 @@ The Shell interface ( ) is intended for mechanical analysis of thin-walled struc
 - [Viskex tutorials](https://viskex.github.io/tutorials/02_garda/tutorial_garda_dolfinx.html)
 
 - [PETSc](https://petsc.org/release/)
+- [NGSolve24:Reissner-Mindlin and Kirchhoff-Love plates with ngsolve](https://docu.ngsolve.org/ngs24/SaS/plates_derivation.html)
+- [Interactive introduction to FEM:course material for TU Wien and NGSolve](https://jschoeberl.github.io/iFEM/intro.html)
+- [NGSolve(https://ngsolve.org/)]
+- [Trame Examples](https://examples.vtk.org/site/Trame/)
+- [Pyvista interactive examples](https://docs.pyvista.org/examples/01-filter/clipping)
 
 -[DefElement:an encyclopedia for finite element definitions](https://defelement.org/ciarlet.html)
 
@@ -317,6 +335,7 @@ The Shell interface ( ) is intended for mechanical analysis of thin-walled struc
 
 ## Physics
 - [COMSOL CYCLOPEDIA: Eigenfrequency Analysis](https://www.comsol.com/multiphysics/eigenfrequency-analysis)
+
 
 ## Misc
 - [Jurgen Bathe FEM lecture series](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DoNqSzzycRhw&ved=2ahUKEwiIxZ-o8YmMAxWBUUEAHUwLDJQQtwJ6BAgREAI&usg=AOvVaw27Ma-zU3FPyxlYxBrOYHRN)
@@ -331,6 +350,7 @@ V_{sphere} = \frac{4}{3}\pi r^3
 
 # Everything else
 ## Studio design
+- [Audioxpress](https://audioxpress.com/)
 
 ## Acoustics
 - [Siemens Modal Analysis](https://community.sw.siemens.com/s/article/dynamic-stiffness-compliance-mobility-and-more)
@@ -339,6 +359,9 @@ V_{sphere} = \frac{4}{3}\pi r^3
 - [Siemens Natural frequency](https://community.sw.siemens.com/s/article/Natural-Frequency-and-Resonance)
 - [GA web model](https://interactiveacoustics.info/html/GA_IS_isRectangular.html)
 - [Wave synthesis](https://www.osar.fr/notes/waveguides/)
+- [pffdtd](https://github.com/bsxfun/pffdtd)
+- [Acoustics in ancient greek](http://www.ancientacoustics2011.upatras.gr/)
+- [ODEON 40th aniversary](https://odeon.dk/about/40-years/#gsc.tab=0)
 
 ## Manufactures
 - [GRAS:microphone](https://www.grasacoustics.com/products/measurement-microphone-sets)
@@ -350,6 +373,12 @@ V_{sphere} = \frac{4}{3}\pi r^3
 ## Rhino
 - [Setting up Camera view](https://blinksandbuttons.net/how-to-set-camera-view-in-rhino/)
 
+## Utility softwares and libraries
+- [emacs math-preview](https://github.com/emacsmirror/math-preview)
+- [Latex editing in emacs:fast-latex-input.el](https://karthinks.com/software/latex-input-for-impatient-scholars/)
+- [Emacs: rgrep](https://stackoverflow.com/questions/1331038/emacs-command-for-searching-in-files)
+- [GUI for C++ ](https://github.com/ocornut/imgui)
+
 ## Web template
 - [1](https://lazyren.github.io/)
 - [2](https://qwtel.com/resume/)
@@ -359,3 +388,5 @@ V_{sphere} = \frac{4}{3}\pi r^3
 
 ## Shelves
 - [gutenberg](https://www.gutenberg.org/)
+
+
